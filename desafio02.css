@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(90, 121, 121);
+}
+
+div{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50% 0% 50% 50%;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#div-uno{
+    top: 150px;
+    left: 300px;
+}
+
+#div-dos{
+    background-color: blueviolet;
+    top: 80px;
+    left: 370px;
+}
+
+#div-tres{
+    transform: rotate(190grad);
+
+    top: 4px;
+    left: 435px;
+}
