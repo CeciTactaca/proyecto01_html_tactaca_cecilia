@@ -1,3 +1,7 @@
+body{
+    background-color: blueviolet;
+}
+
 .layout{
   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   display: grid;
@@ -7,7 +11,7 @@
     "nav nav"
     "sidevar main"
     "footer footer";
-  grid-template-rows: 80px 80px 1fr 120px;
+  grid-template-rows: 110px 60px 1fr 120px;
   grid-template-columns: 250px 1fr;
 }
 
@@ -21,12 +25,13 @@
 
 .header-left{
     flex: 1;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .header-left img{
-    max-width: 80px;
-    height: auto;
+    width: auto;
+    height: 110px;
 }
 
 .header-right{
@@ -78,6 +83,13 @@
     padding: 5px;
 }
 
+.product-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
 .product-container{
     display: flex;
     justify-content: center;
@@ -89,7 +101,7 @@
     width: 200px;
     text-align: center;
     text-decoration: none;
-    margin: 30px 30px 30px;
+    margin: 20px 30px 20px;
 }
 
 .footer{
