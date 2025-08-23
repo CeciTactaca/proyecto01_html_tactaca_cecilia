@@ -73,10 +73,8 @@ body{
 
 .sidevar ul{
     list-style: none;
-}
-
-.sidevar a{
-    text-decoration: none;
+    font-weight: bold;
+    color: rgb(203, 189, 216);
 }
 
 .sidevar ul li{
@@ -133,6 +131,12 @@ body{
 }
 
 .footer a{
-    text-decoration: none;
+    text-decoration: ;
     color: black;
+    font-size: 1em;
+}
+
+a:hover{
+    filter: brightness(70%);
+    transform: scale(1.1);
 }
